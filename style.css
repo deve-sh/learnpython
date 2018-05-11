@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "Gotham";
+    src: url("gotham.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Always";
+    src: url("always.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Amatic SC";
+    src: url("amatic.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Light";
+    src: url("light.otf") format("opentype");
+}
+@font-face{
+    font-family: "Raleway";
+    src: url("raleway.ttf") format("truetype");
+}
+body{
+	width: 100%;
+	margin:0px;
+	font-size: 19px;
+	font-family: Montserrat, Raleway, Cambria;
+	line-height: 1.6;
+}
+.function{
+	color: #8fd32b;
+}
+#line{
+	background: #000000;
+	width: 50%;
+	height: 1px;
+}
+#head{
+	font-size: 70px;
+	text-shadow: 0 3px 10px rgba(0,0,0,.2);
+	padding: 0px;
+}
+em{
+	font-style: none;
+}
+div{
+	box-sizing: border-box;
+}
+#card{
+	width: 90%;
+	height: auto;
+    padding: 40px;
+    background: #ffffff;
+    font-size: 18px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: #000000;
+    text-align: left;
+    box-sizing: border-box;
+}
+#code{
+	padding: 30px;
+	color: #ffffff;
+	background: #303030;
+	font-family: Courier, Courier New;
+	font-size: 16px;
+	width: 90%;
+    text-align: left;
+    box-sizing: border-box;
+}
+.comment{
+	color: #15aabf;
+}
+#button{
+	background: transparent;
+	color: #ffffff;
+	width: 20%;
+	padding: 15px;
+	font-family: Montserrat,Raleway;
+	border: 2px solid #ffffff;
+	font-size: 20px;
+	transition: 0.6s; 
+}
+#button:hover{
+	transform: scale(1.1);
+}
+.one{
+	color: #d9135b;
+}
+.print{
+	color: #1fab54;
+}
+#foot{
+	height: 5vh;
+	background: transparent;
+}
+#next{
+	background: #212121;
+	padding: 20px;
+	font-family: Gotham;
+	color: #ffffff;
+}
+footer{
+	background: #495057;
+	padding: 40px;
+	box-sizing: border-box;
+	width: 90%;
+	font-size: 18px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: #000000;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}

@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Python If-Else</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+</head>
+<body style="background: #b9c9d8;">
+  <br><BR>
+<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Conditionals</span><br><br>
+<div id="line" style="background: #ffffff;"></div><br></div>
+<div align="center">
+  <div id="card">
+    <br>
+    Sometimes in a code, one likes to do things based on conditions. One such profound example is, say in a program to check which of the two numbers are greater. We compare two numbers and print which one is bigger.<Br><BR>
+    This is called a conditional operation, and it is done using <b>if, else</b>, and <b>elif (Short for <u>else-if</u>)</b> statements, which form the basics of coding methodoligy).
+    <Br><BR>
+    Take for example this code snippet :
+  </div>
+  <div id="code">
+    <br>
+    >> if(<span class="one">5</span> < <span class="one">7</span>):<br>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will always come"
+    <Br>
+    >> else:<Br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will never come"
+  </div>
+  <div id="card">
+    As in the example above. The condition inside the if-else statements are enclosed in brackets and the part to be executed has to be indented using a '<b>:</b>' properly. This goes for every piece of code in Python.
+    <br>
+    <br>
+    <b>Note</b> : If in the program one of the conditions is met, then the other condition is not taken care of. Keep this in mind as it is really important and a topic of great confusion for beginner coders.
+    <Br>
+    <Br>
+    Another code snippet is as follows :
+    <br> 
+  </div>
+  <div id="code">
+    >> <span class="one">x</span> = input("Enter the first number")<Br><Br>
+    >> <span class="one">y</span> = input("Enter the second number")<BR><BR>
+    >> if(<span class="one">x</span> == <span class="one">y</span>): &nbsp&nbsp&nbsp&nbsp&nbsp <span class="comment"># The == operator is used to compare quality between two 'operands'</span>
+    <br>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are equal."
+    <Br>
+    >> else:<Br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are unequal."
+  </div>
+  <div id="card">
+    <h2 style="color: #999999">The Elif Statement</h2>
+    Life is already restricting enough, the last thing you would actually want is coding not giving you enough options. Well, there is no lack of coding options.
+    <br>
+    <Br>
+    Even in the conditionals in python, you can have as many conditions as you want, using the <b>elif</b> statement.
+    <Br>
+    <Br>
+    Take for example this code snippet and learn it the final way for this page :
+  </div>
+  <div id="code">
+    >> <span class="one">x</span> = input("Enter the first number")<Br><Br>
+    >> <span class="one">y</span> = input("Enter the second number")<BR><BR>
+    >> if(<span class="one">x</span> == <span class="one">y</span>):
+    <br>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are equal."
+    <Br><BR>
+    >> elif(<span class="one">x</span> > <span class="one">y</span>):<br>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (x," is greater")
+     <br><br>
+    >> elif(<span class="one">x</span> < <span class="one">y</span>):<br>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (x," is greater")
+     <br><Br>
+    >> else:<Br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will never show!"
+  </div>
+  <div id="card">
+    Take a moment as to why the last statement will never work!
+    <Br>
+    <BR>
+    If you figure it out, congrats, not a big deal. Go ahead with the next tutorial.
+    <br>
+    <Br>
+    If you don't, no problem. Still go ahead, you will smile when you eventually figure it out.
+  </div>
+  <footer>
+  <div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='op.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='loops.html'><span id="next">NEXT <i class="fas fa-arrow-alt-circle-right"></i></span></a></footer>
+</div>
+<div id="foot"></div>
+</body>
+</html>

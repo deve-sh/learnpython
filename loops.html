@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Python Loops</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+</head>
+<body style="background: #195a72;">
+	<br><Br>
+	<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Loops</span><br><br>
+		<div id="line" style="background: #ffffff;"></div><br></div>
+<div align="center"><div id="card">
+<br>
+We have learnt almost half of what one needs to know in Python to begin well.
+<bR>
+<BR>
+Now, just imagine a scenario; you are working on a program that requires 20 numbers everytime for its execution. Would you write a line of code for input of every single variable? No. Obviously, no one has that much time on their hand.
+<br>
+<Br>
+Here loops come into use. Loops repeat a single line of code every singe time.
+<br>
+<br>
+There are two main types of loops in Python :
+<ul>
+	<li>While Loop</li>
+	<li>For Loop</li>
+</ul>
+Loops are also called <b>Iteration Statements</b>.
+<br>
+<Br>
+There are also <b>Range function</b> and <b>Break Statement</b> that comes into play in looping.
+<br>
+<br>
+Let's get started.
+</div>
+<div id="code">
+	>> <span class="one">for </span> x in <span class="one">range</span>(0,10):<Br>
+	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> x
+</div>
+<div id="card">
+Here let's see what everything does. The <b>for</b> loop actually iterates over a statement everytime. Here range function works by increasing the value of the variable <b>x</b> from 0 by 1 till 10 (Not euql to 10) one by one.
+<Br>
+<BR>
+And hence the print will be something like this : <Br>
+</div>
+<div id="code">
+0<br>
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+</div>
+<div id="card">
+	This is the function of the range function, we will have a better look at for loops in the upcoming tutorial.
+	<Br>
+	<h2 style="color: #999999"> While Loops </h2>
+	While loop continues on as long as a condition is met.
+	<br>
+</div>
+<div id="code">
+>> <span class="one">while </span> (1 < 2):<BR>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> "This will never stop! This is an infinite loop as 1 < 2 is always true!"
+</div>
+<div id="card">
+In this example, the condition 1 < 2 is always true hence the loop will go on forever.
+<br>
+<h2 style="color: #999999">More on the range function</h2>
+The range function can do more things. Here take a snippet.<br>
+</div>
+<div id="code">
+	>> <span class="one">for </span> x in <span class="one">range</span>(0,10,2):<Br>
+	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> x<Br><Br>
+0<br>
+2<br>
+4<br>
+6<br>
+8<br>
+</div>
+<div id="card">
+	In the above example, the last point in the range function is important. The <b>2</b> signifies that the value of x with increase by 2 every time. And hence, the values of x will be printed as 0,2,4,6,8 (Not 10; as 10 will be out of the range).
+	<Br>
+	<h2 style="color: #999999">Break Statement</h2>
+	This is an important statement, also called an exit statement. In loops once would like to break a loop once a condition is met.
+</div>
+<footer>
+  <div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='ifelse.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='arrays.html'><span id="next">NEXT <i class="fas fa-arrow-alt-circle-right"></i></span></a></footer>
+</div>
+<div id="foot"></div>
+</Body>
+</html>

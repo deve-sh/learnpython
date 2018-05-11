@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Python Functions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+<style>
+a:link{
+		color: #15aabf;
+		font-weight: bold;
+}
+a:visited{
+		color: #15aabf;
+		font-weight: bold;
+}
+a:hover{
+		color: #15aabf;
+		font-weight: bold;
+}
+a:active{
+		color: #15aabf;
+		font-weight: bold;
+}
+</style>
+</head>
+<body style="background: linear-gradient(#0ba360,#3cba92);">
+	<br><Br>
+	<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Functions</span><br><br>
+		<div id="line" style="background: #ffffff;"></div><br></div>
+<div align="center">
+<div id="card">
+<br>
+Think of a scenario again. This time a practical one. Suppose you have been alloted a work and you are being paid a thousand dollars for it; the catch is, the work takes  5 days to complete; whereas the client needs it done by tomorrow. So unless you are Bruce Wayne; What do you do? Out of sheer reluctance; you will have to hire a few people, pay them and get the work done otherwise the thousand dollard are lost too and you would have wasted those 24 hours you could have spent doing something else, much more useful!
+<Br><Br>
+In this example, in programming you are the the main code/whole program and those people you hire are functions. You give them something to do and they do it for you. This is the very definition of a function.<Br><BR>
+A function is a part of code that can take a command, work on it, and return it for you.<Br><BR>
+For ex:
+Let's say I want to square a number; but am too lazy to do it. So I just give the function a number, say 5, and the function would give me 25. This is the example of an <b>argument/Parameter</b>. Let's look at how it works:
+</div>
+<div id="code">
+def <span class="function">function</span>(< argument list >): &nbsp&nbsp&nbsp&nbsp<span class="comment"># Or just any function name</span><br>
+ &nbsp&nbsp&nbsp&nbsp< All the code goes here >
+</div>
+<div id="card">
+	Here <b>def</b> stands for define. If you didn't know, which you did. So congrats. <Br><BR>An example of a function is :
+</div>
+<div id="code">
+def <span class="function">function</span>():<br>
+ &nbsp&nbsp&nbsp&nbsp<span class="print">print </span>"Hey There!"
+</div>
+<div id="card">
+<h2 style="color: #999999">Calling a function</h2>
+Just like you can ask the person you hired about what the result he had gotten. You can call a function to execute its code like this.
+</div>
+<div id="code">
+<span class="comment"># < function name >()</span>
+<Br>
+<Br>
+>> def <span class="function">function</span>():<br>
+ &nbsp&nbsp&nbsp&nbsp<span class="print">print </span>"Hey There!"
+ <Br><br>
+>> function() &nbsp&nbsp&nbsp&nbsp<span class="comment"># This will call the function and the code will be executed.</span>
+</div>
+<div id="card">
+<h2 style="color: #999999">Passing a parameter</h2>
+Just like asking someone the square of a number, notice, you are giving them a number to work on. Right?
+<br><BR>
+Similarly, you can give anything to a function to work on.<br>
+<br>
+Just look at this :
+</div>
+<div id="code">
+>> def <span class="function">square</span>(x): &nbsp&nbsp<span class="comment"># x can be any value you may pass in the function</span><Br>
+ &nbsp&nbsp&nbsp&nbsp<span class="print">print </span> <span class="one">x</span>*<span class="one">x</span> <br>
+>> square(6)
+<br>
+36
+</div>
+<div id="card">
+	Okay, so this was enough for you to get started and learn further. In the end of this. I suggest you try out a few programs to check your skills in programming:
+	<ul>
+		<li>A program to let user input two numbers, their choice and perform mathematical calculations on them. I.e (A basic I/O Calculator)</li>
+		<li>A program to print numbers divisible by 7 upto 1000.</li>
+		<li>A program to check if a number is prime or not. (Would require Mathematical Modelling)</li>
+		<li>A program to take the user's name, marks in 5 subjects (Out of 100) (Use lists for this) and print his/her name and percentage.</li>
+	</ul>
+	<br>
+	After finishing the above 4, you may or may not go to other long courses to learn things, where you would rather start with elements that this tutorial missed. Or just things you would like to further learn. For Ex: Classes, Objects and Dictionaries have not been covered in the tutorial. But they form an essential element of python and require what you learned in this tutorial for smooth learning.
+	<Br><BR>
+	The sites below are recommended for further learning :
+	<br><Br>
+	<a href="http://codecademy.com" target="_blank">Codecademy (RECOMMENDED)</a>
+	<br><br>
+	<a href="https://www.tutorialspoint.com/python/" target="_blank">Tutorials Point</a>
+	<br><Br>
+	<a href="https://www.w3schools.com/python/default.asp" target="_blank">W3 Schools</a>
+	<Br><Br>
+	<a href="https://7chan.org/pr/src/Python_for_Dummies_(2006).pdf" target="_blank">Python for Dummies (pdf) (RECOMMENDED)</a>
+	<br><BR>
+	Or any other website you may find.
+
+	<h2>Thank You So Much Folks</h2>
+</div>
+<footer>
+  <div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='arrays.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='https://goo.gl/forms/OyPalEe03RCoNufu2' target="_blank"><span id="next">FEEDBACK <i class="fas fa-comment-alt"></i></span></a></footer>
+<div id="foot"></div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Python Input-Output</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body style="background: #15aabf">
+	<br><Br>
+	<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Input-Output</span><br><br>
+		<div id="line" style="background: #ffffff;"></div><br></div>
+<div align="center"><div id="card">
+<br>
+Now that variables are out of the way. It would be so boring if one was left with a value of a variable that the programmer has set. Instead, it would be more fun if we had the option of the user had the option to enter the value of a variable! 
+<br><Br>
+To counter this issue; python comes built in with commands to input and print the value of the variable being used.
+<Br><br>
+For Ex :<br>
+</div>
+<div id="code">
+	>> <span class="one">x</span> = 5 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#This would be boring, let's do something nice!</span> 
+</div>
+<div id="card">
+Here, <b>x</b> has a value that cannot be changed by the user. In order for the user to give the input. The Syntax will be :
+</div>
+<div id="code">
+>> <span class="one">x</span> = input("Enter the value for x : ") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#Perfect!</span> 
+<br><Br>
+>> <span class="one">x</span> = raw_input("Enter the string value of x : ") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#If x is meant to be a string</span> 
+</div>
+<div id="card">
+<Br>
+<br>
+Let's learn what each line of it did : 
+<Br>
+<br>
+<ul>
+	<li><b>input</b> - This is used when the variable for whom the input is being taken; is meant to be a numeric value (Integer or Float). Ex: <b>5</b> or <b>5.0</b></li>
+	<br>
+	<br>
+	<li><b>raw_input</b> - This is used when the variable for whom the input is being taken; is meant to be text. Ex : "I am someone" is a string and not a number. Similarly <b>"5"</b> and <b>5</b> are different, the first is a string (text), whereas the latter is a number (Interger).</li>
+	<br>
+	<br>
+	<li><b>The Message</b> - This will pop up on the screen when the user is about to enter the value of the variable.</li>
+</ul>
+<Br>
+<h2 style="color: #999999;">Output</h2>
+
+Printing a variable to the screen is even more easy! Use the print function! (Don't worry if you don't know what a function is).
+<bR>
+<Br>
+Here, let's try it : 
+</div>
+<div id="code">
+>> <span class="one">x</span> = 5
+<Br>
+<BR>
+>> <span class="print">print </span> x &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 5 to the console!</span><br><Br>
+5<Br><Br>
+>> <span class="one">y </span>= 5.1<Br><br>
+>> <span class="print">print </span> y &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 5.1 to the console!</span><br><Br>
+5.1<Br><Br>
+>> <span class="one">z </span>= "Hey There!"<Br><BR>
+>> <span class="print">print </span>z &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 'Hey There!' to the console!</span><br><br>
+Hey There!
+</div>
+<div id="card"><br>
+  You could also type in things directly to print them to the console.<Br>
+</div>
+<div id="code">
+  >> <span class="print">print </span> 5+6  &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 11</span><br>
+  11
+  </div>
+<div id="card">
+  You can also connect strings 1 by 1 or print multiple things at once by using bracks and commas : <Br>
+</div>
+<div id="code">
+  >> <span class="print">print </span> ("The answer to everything is ", 42)<br>
+  The answer to everything is 42 &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># This is the output</span>
+</div>
+<div id="card">
+	<br>
+</div>
+<footer>
+<div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='variables.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='op.html'><span id="next">NEXT <i class="fas fa-arrow-alt-circle-right"></i></span></a></footer>
+</div>
+<div id="foot"></div>
+</body>

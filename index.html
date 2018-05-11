@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>Learn Phyton Basics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<style>
+body{
+	background: #ffffff;
+}
+#top{
+	background: #303030;
+	padding: 50px;
+	font-size: 50px;
+	height: auto;
+	margin:0px;
+	color: #ffffff;
+	font-family: Gotham;
+}
+a:link{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:active{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+#next{
+	background: #ffffff;
+	padding: 0px;
+	margin:0px;
+}
+ul{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+	padding: 30px;
+	font-size: 25px;
+	font-family: Light;
+	transition: 0.5s;
+	color: #000000;
+}
+li:hover{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+li a:link{
+	color: #000000;
+}
+li a:hover{
+	color: #000000;
+}
+li a:visited{
+	color: #000000;
+}
+li a:active{
+	color: #000000;
+}
+footer{
+	background: #212121;
+	color: #ffffff;
+	padding: 50px;
+	font-family: Montserrat, Cambria;
+	font-size: 20px;
+}
+#intro{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+#get{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+#closer{
+    background: #000000;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#closer a:link{
+	color: #ffffff;
+    font-weight: bold;
+}
+#closer a:hover{
+	color: #ffffff;
+font-weight: bold;
+}
+#closer a:visited{
+	color: #ffffff;
+font-weight: bold;
+}
+#closer a:active{
+	color: #ffffff;
+font-weight: bold;
+}
+#basics{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<div id="top">
+Everyone should Code!
+<br>
+<br>
+<i class="fab fa-python fa-3x"></i>
+<br>
+<Br>
+<div id="button"><a href="#next">Learn Python</a></div>
+<Br>
+<BR>
+</div>
+</div>
+<div id="next">
+<ul>
+<li onclick="intro()"><span id="open"></span>&nbsp&nbsp<a href='javascript:void(0)'>What is Python | and | Why learn it?</a></li>
+
+<li id="intro">Python is an extremely helpful, extremely useful and the most simple to learn programming language. So much so, that it actually has been winning awards for being the best programming language in the world.
+	<Br>
+	<br>
+&nbsp&nbsp&nbsp&nbsp It is a clean, effortless and semicolon-free programming language! Object-Oriented (Doesn't matter if you don't know wat this means. No One actually does!)
+<Br>
+<BR>
+&nbsp&nbsp&nbsp&nbsp You won't learn to make games or any world changing stuff using this website; but one thing you will have is a great foundation for further learning Python once you finish. Enjoy learning!
+<Br>
+<bR>
+&nbsp&nbsp&nbsp&nbsp <b>Note : </b>A computer is needed in order to program, but this tutorial can be viewed from any device, anywhere.
+<BR>
+<BR>
+<div align="center"><div id="closer" onclick="intro()"><a href='javascript:void(0)'><i class="fas fa-minus"></i> &nbspClose</a></div></div></li>
+
+<li onclick="get()"><a href='javascript:void(0)'><i class="fab fa-python"></i> &nbspGet Python</a></li>
+
+<li id="get">In the turoials, we would be using the <b>IDLE IDE</b> that comes built in the package linked down below!
+	<Br>
+	<br>
+&nbsp&nbsp&nbsp&nbsp Go to <b><a target='_blank' style="color: #15aabf;" href='http://python.org/'>this site</a></b>, select your computer's specs, and download the installer. Once that is done. Install the package. In your start menu (Finder if you are using a MAC) , navigate to Python and open IDLE IDE which would be listed there. Congrats, your development environment is set!
+<Br>
+<Br>
+<div align="center"><div id="closer" onclick="get()"><a href='javascript:void(0)'><i class="fas fa-minus"></i> &nbspClose</a></div></div>
+</li>
+
+<li onclick='basics()'><i class="far fa-file"></i>&nbsp Some Basics</li>
+<li id="basics">The following bits of pieces and commands would be useful in the upcoming tutorials: 
+<br>
+<Br>
+&nbsp&nbsp&nbsp&nbsp <b>Hit Enter</b> after every line of code to execute it.
+<br>
+<BR>
+&nbsp&nbsp&nbsp&nbsp Python Files are saved using the <b>.py</b> extension.
+<Br>
+<BR>
+&nbsp&nbsp&nbsp&nbsp Type <b>exit()</b> in the IDLE to close Python.
+<Br>
+<BR>
+&nbsp&nbsp&nbsp&nbsp Comments are created using <b><span style="color: #15aabf;">#</span></b>, they don't execute on run! And are only visible to the people seeing the actual code. In the tutorials, the comments will be used to guide you.
+<br>
+<br>
+&nbsp&nbsp&nbsp&nbsp In the tutorials, lines that will have <b>>></b> in their beginning will be the code and the ones without them will be the output.
+<BR>
+<br>
+&nbsp&nbsp&nbsp&nbsp Again. This is just a basic tutorial And neither would you learn anything else for free anywhere else on the internet. :P
+<Br>
+<BR>
+<div align="center"><div id="closer" onclick="basics()"><a href='javascript:void(0)'><i class="fas fa-minus"></i> &nbspClose</a></div></div>
+</li>
+
+<li><A href='variables.html'>Variables</A></li>
+
+<li><A href='io.html'>I/O</A></li>
+
+<li><a href='op.html'>Operators</a></li>
+
+<li><A href='ifelse.html'>Conditionals</A></li>
+
+<li><A href='Loops.html'>Loops</A></li>
+
+<li><A href='arrays.html'>Lists</A></li>
+
+<li><A href='functions.html'>Functions</A></li>
+
+</ul>
+</div>
+<footer style="width: 100%;">
+	Created from scratch by <b><a href='http://deve-sh.github.io/website'>Devesh Kumar</a></b>
+	<br><br>
+	<span style="font-size: 14px;">Inspired by Codehub</span>
+</footer>
+
+
+
+<script type="text/javascript">
+
+    var x=document.getElementById("intro");
+    var y=document.getElementById("open");
+    if(x.style.display!="block"){
+        y.innerHTML="<i class='fas fa-plus'></i>";
+    }
+	var intro=function(){
+		if(x.style.display!="block"){
+         x.style.display="block";
+         y.innerHTML="<i class='fas fa-minus'></i>";
+		}
+		else{
+			x.style.display="none";
+			y.innerHTML="<i class='fas fa-plus'></i>";
+		}
+	};
+	var close=function(){
+		x.style.display="none";
+	}
+	z=document.getElementById("get");
+
+	var get=function(){
+      if(z.style.display!="block"){
+         z.style.display="block";
+		}
+		else{
+		 z.style.display="none";
+		}
+	};
+	var a=document.getElementById("basics");
+	var basics=function(){
+      if(a.style.display!="block"){
+         a.style.display="block";
+		}
+		else{
+		 a.style.display="none";
+		}
+	};
+</script>
+
+</body>
+</html>
