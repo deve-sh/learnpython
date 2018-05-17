@@ -1,4 +1,4 @@
-# learnpython
+# Learn Python as Fast as Possible
 A Website to learn Python basics as fast as possible!
 
 <br>
