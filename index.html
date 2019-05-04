@@ -1,14 +1,30 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Learn Phyton ASAP</title>
+
+<!-- Meta -->
+
+<meta charset="utf-8">
+<meta author="Devesh Kumar">
+<meta description="A website to help people learn the basics of Python ASAP">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="3ctOoLuIkGjbzDRQ04bQnjbju0xmO5C7ivGLx8vfCFE" />
+
+<!-- Files -->
+
 <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
-<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="./styles/small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/ultrasmall.css">
+
+<!-- Preloaded Scripts -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -37,7 +53,12 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- Inline Styles -->
+
 <style>
+
+/* Styles specific to the index page. */
+
 body{
 	background: #ffffff;
 }
@@ -205,7 +226,8 @@ Everyone should Code!
 <div align="center"><div id="closer" onclick="get()"><a href='javascript:void(0)'><i class="fas fa-minus"></i> &nbspClose</a></div></div>
 </li>
 
-<li onclick='basics()'><i class="far fa-file"></i>&nbsp Some Basics</li>
+<li onclick='basics()'><i class="far fa-file"></i>&nbsp <span style='cursor: pointer;'>Some Basics</span></li>
+
 <li id="basics">The following bits of pieces and commands would be useful in the upcoming tutorials: 
 	<br><br>
 	In Python 2.7, <b>print</b> statements <b>don't require a paranthesis</b>, while Python later than 2.7 require parenthesis in print. Keep this in mind.<br>This tutorial is based on Python 2.7.
