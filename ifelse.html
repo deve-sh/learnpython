@@ -36,11 +36,11 @@
   </div>
   <div id="code">
     <br/>
-    >> if(<span class="one">5</span> < <span class="one">7</span>):<br/>
-     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will always come"
+    >> <span class='keyword'>if</span>(<span class="one"><span class='number'>5</span></span> <span class='operator'><</span> <span class="one"><span class='number'>7</span></span>):<br/>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>This will always come</span><span class='quotes'>"</span>
     <br/>
-    >> else:<br/>
-    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will never come"
+    >> <span class='keyword'>else</span>:<br/>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>This will never come</span><span class='quotes'>"</span>
   </div>
   <div id="card">
     As in the example above. The condition inside the if-else statements are enclosed in brackets and the part to be executed has to be indented using a '<b>:</b>' properly. This goes for every piece of code in Python.
@@ -53,14 +53,14 @@
     <br/> 
   </div>
   <div id="code">
-    >> <span class="one">x</span> = input("Enter the first number")<br/><br/>
-    >> <span class="one">y</span> = input("Enter the second number")<br/><br/>
-    >> if(<span class="one">x</span> == <span class="one">y</span>): &nbsp&nbsp&nbsp&nbsp&nbsp <span class="comment"># The == operator is used to compare quality between two 'operands'</span>
+    >> <span class="one">x</span> <span class='operator'>=</span> <span class='function'>input</span>(<span class='quotes'>"</span><span class='string'>Enter the first number : </span><span class='quotes'>"</span>)<br/><br/>
+    >> <span class="one">y</span> <span class='operator'>=</span> <span class='function'>input</span>(<span class='quotes'>"</span><span class='string'>Enter the second number : </span><span class='quotes'>"</span>)<br/><br/>
+    >> <span class='keyword'>if</span>(<span class="one">x</span> <span class='operator'>==</span> <span class="one">y</span>): &nbsp&nbsp&nbsp&nbsp&nbsp <span class="comment"># The == operator is used to compare quality between two 'operands'</span>
     <br/>
-     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are equal."
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>The two are equal.</span><span class='quotes'>"</span>
     <br/>
-    >> else:<br/>
-    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are unequal."
+    >> <span class='keyword'>else</span>:<br/>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>The two are unequal.</span><span class='quotes'>"</span>
   </div>
   <div id="card">
     <h2 style="color: #999999">The Elif Statement</h2>
@@ -73,20 +73,20 @@
     Take for example this code snippet and learn it the final way for this page :
   </div>
   <div id="code">
-    >> <span class="one">x</span> = input("Enter the first number")<br/><br/>
-    >> <span class="one">y</span> = input("Enter the second number")<br/><br/>
-    >> if(<span class="one">x</span> == <span class="one">y</span>):
+    >> <span class="one">x</span> <span class='operator'>=</span> <span class='function'>input</span>(<span class='quotes'>"</span><span class='string'>Enter the first number : </span><span class='quotes'>"</span>)<br/><br/>
+    >> <span class="one">y</span> <span class='operator'>=</span> <span class='function'>input</span>(<span class='quotes'>"</span><span class='string'>Enter the second number : </span><span class='quotes'>"</span>)<br/><br/>
+    >> <span class='keyword'>if</span>(<span class="one">x</span> <span class='operator'>==</span> <span class="one">y</span>):
     <br/>
-     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "The two are equal."
-    <br/><br/>
-    >> elif(<span class="one">x</span> > <span class="one">y</span>):<br/>
-     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (x," is greater")
-     <br/><br/>
-    >> elif(<span class="one">x</span> < <span class="one">y</span>):<br/>
-     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (x," is greater")
-     <br/><br/>
-    >> else:<br/>
-    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> "This will never show!"
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>The two are equal.</span><span class='quotes'>"</span>
+    <br/>
+    >> <span class='keyword'>elif</span>(<span class="one">x</span> <span class='operator'>></span> <span class="one">y</span>):<br/>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (x,<span class='quotes'>"</span><span class='string'> is greater.</span><span class='quotes'>"</span>)
+     <br/>
+    >> <span class='keyword'>elif</span>(<span class="one">x</span> <span class='operator'><</span> <span class="one">y</span>):<br/>
+     &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> (y,<span class='quotes'>"</span><span class='string'> is greater,</span><span class='quotes'>"</span>)
+     <br/>
+    >> <span class='keyword'>else</span>:<br/>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<span class="print">print</span> <span class='quotes'>"</span><span class='string'>This will never show.</span><span class='quotes'>"</span>
   </div>
   <div id="card">
     Take a moment as to why the last statement will never work!
