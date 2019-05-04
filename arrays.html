@@ -1,84 +1,97 @@
 <html>
 <head>
 <title>Python Lists</title>
+
+<!-- Meta -->
+
+<meta charset="utf-8">
+<meta author="Devesh Kumar">
+<meta description="A website to help people learn the basics of Python ASAP">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Files -->
+
 <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" media="screen and (max-width: 750px)" href="small.css">
-<link rel="stylesheet" media="screen and (max-width: 600px)" href="ultrasmall.css">
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" media="screen and (max-width: 750px)" href="./styles/small.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/ultrasmall.css">
+
 </head>
 <body style="background: #e94331;">
-	<br><Br>
-	<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Lists</span><br><br>
-		<div id="line" style="background: #ffffff;"></div><br></div>
-<div align="center">
-<div id="card">
-<br>
-As a specie, we want to get the most out of every single thing. Right? Similary, in programming, the main goal is to get the most out of every single thing we do, in the least amount of code.
-<Br>
-<BR>
-Here, <b>Lists</b> come into play.
-<Br><Br>
-Lists are basically variables that can hold more than one value. And that value can be anything, any integer, floating constant or a string.
-<BR>
-</div>
-<div id="code">
->> <span class="one">a</span> = [5,6,"Person",8]
-</div>
-<div id="card">
-	In the above, there is a list named '<b>a</b>' which contains the values as shown in the '[...]'.<Br>
-	<h2 style="color: #999999">Printing Elements of a list</h2>
-	Indexing of any element in a list, starts from zero. You could just type :
-</div>
-<div id="code">
->> <span class="print">print </span>a[0]<br>
-5
-<Br>
->> <span class="print">print </span>a[1]<br>
-6
-<br>
->> <span class="print">print </span>a[2]<br>
-Person
-<br>
->> <span class="print">print </span>a[3]<br>
-8
-<br>
-</div>
-<div id="card">
-This could be done using for and while loops too (As said in the previous tutorial) :
-</div>
-<div id="code">
->> <span class="one">for </span> element in <span class="one">a</span>:<Br>
-	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> element
-	 <br><BR>
-<span class="comment"> #-------OR-------<BR><br></span>
->> <span class="one">i </span>= 0<Br><BR>
->> <span class="one">while</span> (i < len(a)): &nbsp&nbsp&nbsp<span class="comment"># len() gives the length of array.</span><Br><BR>
- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span>a[i]
-</div>
-<div id="card">
-<h2 style="color: #999999">Basic Operations on Lists</h2>
-<b>Append :</b> (Adding element to the end of array) : a.append(< element you want to append >)
-<Br>
-<br>
-<u>Ex</u> : a.append("Hey This will be the last element!")
-<br>
-<Br>
-<b>Insert at a given position :</b> a.insert(< index >,< element >)
-<br><Br>
-<u>Ex</u> : a.insert(2,3) &nbsp&nbsp&nbsp #Inserts <b>3</b> at index number 2, i.e: 3rd element.
-<br><br>
-<b>Pop/Remove element from a given position</b> : <b>a.pop([1])</b> will remove 6 from the list a.
-<br><BR>
-<b>Reverse a list</b> : a.reverse()
-<Br><BR>
-This is enough for lists in Python. 
-</div>
-<footer>
-  <div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='loops.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='functions.html'><span id="next">NEXT <i class="fas fa-arrow-alt-circle-right"></i></span></a></footer>
-</div>
-<div id="foot"></div>
+	<br/><br/>
+	<div align="center" style="font-family: Gotham; color: #ffffff;"><span id="head">Lists</span><br/><br/>
+		<div id="line" style="background: #ffffff;"></div><br/></div>
+		<div align="center">
+		<div id="card">
+		<br/>
+		As a specie, we want to get the most out of every single thing. Right? Similary, in programming, the main goal is to get the most out of every single thing we do, in the least amount of code.
+		<br/>
+		<br/>
+		Here, <b>Lists</b> come into play.
+		<br/><br/>
+		Lists are basically variables that can hold more than one value. And that value can be anything, any integer, floating constant or a string.
+		<br/>
+		</div>
+		<div id="code">
+		>> <span class="one">a</span> = [5,6,"Person",8]
+		</div>
+		<div id="card">
+			In the above, there is a list named '<b>a</b>' which contains the values as shown in the '[...]'.<br/>
+			<h2 style="color: #999999">Printing Elements of a list</h2>
+			Indexing of any element in a list, starts from zero. You could just type :
+		</div>
+		<div id="code">
+		>> <span class="print">print </span>a[0]<br/>
+		5
+		<br/>
+		>> <span class="print">print </span>a[1]<br/>
+		6
+		<br/>
+		>> <span class="print">print </span>a[2]<br/>
+		Person
+		<br/>
+		>> <span class="print">print </span>a[3]<br/>
+		8
+		<br/>
+		</div>
+		<div id="card">
+		This could be done using for and while loops too (As said in the previous tutorial) :
+		</div>
+		<div id="code">
+		>> <span class="one">for </span> element in <span class="one">a</span>:<br/>
+			 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> element
+			 <br/><br/>
+		<span class="comment"> #-------OR-------<br/><br/></span>
+		>> <span class="one">i </span>= 0<br/><br/>
+		>> <span class="one">while</span> (i < len(a)): &nbsp&nbsp&nbsp<span class="comment"># len() gives the length of array.</span><br/><br/>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span>a[i]
+		</div>
+		<div id="card">
+		<h2 style="color: #999999">Basic Operations on Lists</h2>
+		<b>Append :</b> (Adding element to the end of array) : a.append(< element you want to append >)
+		<br/>
+		<br/>
+		<u>Ex</u> : a.append("Hey This will be the last element!")
+		<br/>
+		<br/>
+		<b>Insert at a given position :</b> a.insert(< index >,< element >)
+		<br/><br/>
+		<u>Ex</u> : a.insert(2,3) &nbsp&nbsp&nbsp #Inserts <b>3</b> at index number 2, i.e: 3rd element.
+		<br/><br/>
+		<b>Pop/Remove element from a given position</b> : <b>a.pop([1])</b> will remove 6 from the list a.
+		<br/><br/>
+		<b>Reverse a list</b> : a.reverse()
+		<br/><br/>
+		This is enough for lists in Python. 
+		</div>
+		<footer>
+		  <div align="center"><a href='index.html'><span id="next"><i class="fas fa-h-square"></i> &nbspHOME</span></a>&nbsp &nbsp &nbsp<a href='loops.html'><span id="next"><i class="fas fa-arrow-circle-left"></i> &nbspPREV</span></a>&nbsp &nbsp &nbsp<a href='functions.html'><span id="next">NEXT <i class="fas fa-arrow-alt-circle-right"></i></span></a></footer>
+		</div>
+		<div id="foot"></div>
 </body>
 </html>
