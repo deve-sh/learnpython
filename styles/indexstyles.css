@@ -13,6 +13,7 @@ body{
   background-attachment: fixed;
   background-position: bottom;
 	font-size: 1.3em;
+  max-height: 100vh;
 	height: auto;
 	margin:0px;
 	color: #ffffff;
