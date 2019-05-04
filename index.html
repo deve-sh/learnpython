@@ -58,19 +58,36 @@ $(document).ready(function(){
 <style>
 
 /* Styles specific to the index page. */
+/* Could have put it in a seperate file. But nevermind. */
 
 body{
 	background: #ffffff;
 }
+
 #top{
-	background: #303030;
-	padding: 50px;
-	font-size: 50px;
+	padding: 2.4rem;
+  padding-top : 6rem;
+  padding-bottom: 5rem;
+  background: #303030 url("https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: scroll;
+	font-size: 1.3em;
 	height: auto;
 	margin:0px;
 	color: #ffffff;
 	font-family: Gotham;
 }
+
+#top #introblock{
+  font-size: 2em;
+}
+
+#button a{
+  font-size: 1em;
+  color: #000;
+}
+
 a:link{
 	color: #FFFFFF;
     text-decoration: none;
@@ -186,13 +203,15 @@ font-weight: bold;
 <body>
 <div align="center">
 <div id="top">
-Everyone should Code!
+  <div id="introblock">
+    Everyone should Code!
+  </div>
 <br/>
 <br/>
 <i class="fab fa-python fa-3x"></i>
 <br/>
 <br/>
-<div id="button"><a href="#next">Learn Python</a></div>
+<a href="#next"><div id="button">Learn Python</div></a>
 <br/>
 <br/>
 </div>
@@ -271,7 +290,7 @@ Everyone should Code!
 </ul>
 </div>
 <footer style="width: 100%;">
-	Created from scratch by <b><a href='http://deve-sh.github.io/website'>Devesh Kumar</a></b>
+	Created from scratch by <b><a href='https://deve-sh.github.io/' target="_blank">Devesh Kumar</a></b>
 	<br/><br/>
 	<span style="font-size: 14px;">Inspired by Codehub</span>
 </footer>
