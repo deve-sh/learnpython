@@ -70,9 +70,12 @@ div{
 	transition: 0.6s; 
 }
 
-#button:hover{
-	transform: scale(1.1);
+#introicon{
+	padding: 1.5rem;
+	border-radius: 50%;
+	border: 0.2rem solid #ffffff;
 }
+
 
 /* Code Components */
 

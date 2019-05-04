@@ -1,0 +1,154 @@
+
+body{
+	background: #ffffff;
+}
+
+#top{
+	padding: 2.4rem;
+  padding-top : 6rem;
+  padding-bottom: 5rem;
+  background: #303030 url("https://images.pexels.com/photos/561463/pexels-photo-561463.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+	font-size: 1.3em;
+	height: auto;
+	margin:0px;
+	color: #ffffff;
+	font-family: Gotham;
+}
+
+#top #introblock{
+  font-size: 2em;
+}
+
+#button a{
+  font-size: 1em;
+  color: #000;
+}
+
+a:link{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:active{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+#next{
+	background: #ffffff;
+	padding: 0px;
+	margin:0px;
+}
+ul{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+	padding: 30px;
+	font-size: 25px;
+	font-family: Light;
+	transition: 0.5s;
+	color: #000000;
+}
+li:hover{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+li a:link{
+	color: #000000;
+}
+li a:hover{
+	color: #000000;
+}
+li a:visited{
+	color: #000000;
+}
+li a:active{
+	color: #000000;
+}
+footer{
+	background: #212121;
+	color: #ffffff;
+	padding: 50px;
+	font-family: Montserrat, Cambria;
+	font-size: 20px;
+}
+#intro{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+#get{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+#closer{
+    background: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0.55rem;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#closer a:link{
+	color: #ffffff;
+    font-weight: bold;
+}
+#closer a:hover{
+	color: #ffffff;
+font-weight: bold;
+}
+#closer a:visited{
+	color: #ffffff;
+font-weight: bold;
+}
+#closer a:active{
+	color: #ffffff;
+font-weight: bold;
+}
+#basics{
+	background: #ffffff;
+	color: #000000;
+    padding: 30px;
+    display: none;
+    transition: 1s;
+    font-size: 18px;
+    font-family: Montserrat, Raleway;
+    transform-origin: top;
+}
+
+@media only screen and (max-width: 750px){
+  #top #introblock{
+    font-size: 1.7em;
+  }
+}
+
+
+@media only screen and (max-width: 500px){
+  #top #introblock{
+    font-size: 1.35em;
+  }
+}
