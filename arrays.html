@@ -38,7 +38,7 @@
 		<br/>
 		</div>
 		<div id="code">
-		>> <span class="one">a</span> = [5,6,"Person",8]
+		>> <span class="one">a</span> <span class='equals'>=</span> [<span class='number'>5</span>,<span class='number'>6</span>,<span class='quotes'>"</span><span class='string'>Person</span><span class='quotes'>"</span>,<span class='number'>8</span>]
 		</div>
 		<div id="card">
 			In the above, there is a list named '<b>a</b>' which contains the values as shown in the '[...]'.<br/>
@@ -46,16 +46,16 @@
 			Indexing of any element in a list, starts from zero. You could just type :
 		</div>
 		<div id="code">
-		>> <span class="print">print </span>a[0]<br/>
+		>> <span class="print">print </span>a[<span class='number'>0</span>]<br/>
 		5
 		<br/>
-		>> <span class="print">print </span>a[1]<br/>
+		>> <span class="print">print </span>a[<span class='number'>1</span>]<br/>
 		6
 		<br/>
-		>> <span class="print">print </span>a[2]<br/>
+		>> <span class="print">print </span>a[<span class='number'>2</span>]<br/>
 		Person
 		<br/>
-		>> <span class="print">print </span>a[3]<br/>
+		>> <span class="print">print </span>a[<span class='number'>3</span>]<br/>
 		8
 		<br/>
 		</div>
@@ -63,12 +63,12 @@
 		This could be done using for and while loops too (As said in the previous tutorial) :
 		</div>
 		<div id="code">
-		>> <span class="one">for </span> element in <span class="one">a</span>:<br/>
+		>> <span class="keyword">for </span> element <span class='keyword'>in</span> <span class="one">a</span>:<br/>
 			 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print</span> element
 			 <br/><br/>
 		<span class="comment"> #-------OR-------<br/><br/></span>
-		>> <span class="one">i </span>= 0<br/><br/>
-		>> <span class="one">while</span> (i < len(a)): &nbsp&nbsp&nbsp<span class="comment"># len() gives the length of array.</span><br/><br/>
+		>> <span class="one">i </span><span class='operator'>=</span> <span class='number'>0</span><br/><br/>
+		>> <span class="keyword">while</span> (i <span class='operator'><</span> <span class='function'>len</span>(a)): &nbsp&nbsp&nbsp<span class="comment"># len() gives the length of array.</span><br/>
 		 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="print">print </span>a[i]
 		</div>
 		<div id="card">

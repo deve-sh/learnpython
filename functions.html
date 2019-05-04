@@ -55,15 +55,15 @@ a:active{
 		Let's say I want to square a number; but am too lazy to do it. So I just give the function a number, say 5, and the function would give me 25. This is the example of an <b>argument/Parameter</b>. Let's look at how it works:
 		</div>
 		<div id="code">
-		def <span class="function">function</span>(< argument list >): &nbsp&nbsp&nbsp&nbsp<span class="comment"># Or just any function name</span><br/>
+		<span class='keyword'>def</span> <span class="function">function</span>(< argument list >): &nbsp&nbsp&nbsp&nbsp<span class="comment"># Or just any function name</span><br/>
 		 &nbsp&nbsp&nbsp&nbsp< All the code goes here >
 		</div>
 		<div id="card">
 			Here <b>def</b> stands for define. If you didn't know, which you did. So congrats. <br/><br/>An example of a function is :
 		</div>
 		<div id="code">
-		def <span class="function">function</span>():<br/>
-		 &nbsp&nbsp&nbsp&nbsp<span class="print">print </span>"Hey There!"
+		<span class='keyword'>def</span> <span class="function">function</span>():<br/>
+		 &nbsp&nbsp&nbsp&nbsp<span class="print">print </span><span class='quotes'>"</span><span class='string'>Hey There</span><span class='quotes'>"</span>
 		</div>
 		<div id="card">
 		<h2 style="color: #999999">Calling a function</h2>
@@ -73,10 +73,10 @@ a:active{
 		<span class="comment"># < function name >()</span>
 		<br/>
 		<br/>
-		>> def <span class="function">function</span>():<br/>
+		>> <span class='keyword'>def</span> <span class="function">function</span>():<br/>
 		 &nbsp&nbsp&nbsp&nbsp<span class="print">print </span>"Hey There!"
 		 <br/><br/>
-		>> function() &nbsp&nbsp&nbsp&nbsp<span class="comment"># This will call the function and the code will be executed.</span>
+		>> <span class='function'>function</span>() &nbsp&nbsp&nbsp&nbsp<span class="comment"># This will call the function and the print Hey There.</span>
 		</div>
 		<div id="card">
 		<h2 style="color: #999999">Passing a parameter</h2>
@@ -87,9 +87,9 @@ a:active{
 		Just look at this :
 		</div>
 		<div id="code">
-		>> def <span class="function">square</span>(x): &nbsp&nbsp<span class="comment"># x can be any value you may pass in the function</span><br/>
+		>> <span class='keyword'>def</span> <span class="function">square</span>(<span class='number'>x</span>): &nbsp&nbsp<span class="comment"># x can be any value you may pass in the function</span><br/>
 		 &nbsp&nbsp&nbsp&nbsp<span class="print">print </span> <span class="one">x</span>*<span class="one">x</span> <br/>
-		>> square(6)
+		>> <span class='function'>square</span>(<span class='number'>6</span>)
 		<br/>
 		36
 		</div>
