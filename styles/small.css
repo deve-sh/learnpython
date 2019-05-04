@@ -1,6 +1,6 @@
 #top{
 	height: 100vh;
-	font-size: 40px;
+	font-size: 2.5em;
 }
 #button{
 	width: 40%;
@@ -14,13 +14,20 @@ footer{
 }
 #card{
 	width: 100%;
+	font-size : 0.85em;
 }
+
+#card li{
+	font-size: 1em;
+	margin: 0;
+}
+
 #code{
 	width: 100%;
-	font-size: 14px;
+	font-size: 0.85em;
 }
 #head{
-	font-size: 40px;
+	font-size: 2.5em;
 }
 #foot{
 	height: 0;

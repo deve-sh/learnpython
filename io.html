@@ -32,18 +32,20 @@
     <br/><br/>
     To counter this issue; python comes built in with commands to input and print the value of the variable being used.
     <br/><br/>
-    For Ex :<br/>
+    For Ex :
+    <br/>
     </div>
     <div id="code">
-    	>> <span class="one">x</span> = 5 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#This would be boring, let's do something nice!</span> 
+    	>> <span class="one">x</span> <span class='operator'>=</span> <span class='number'>5</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># This would be boring, let's do something nice!</span> 
     </div>
     <div id="card">
     Here, <b>x</b> has a value that cannot be changed by the user. In order for the user to give the input. The Syntax will be :
     </div>
     <div id="code">
-    >> <span class="one">x</span> = input("Enter the value for x : ") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#Perfect!</span> 
+    >> <span class="one">x</span> <span class='operator'>=</span> <span class='function'>input</span>
+    (<span class='quotes'>"</span><span class='string'>Enter the value for x : </span><span class='quotes'>"</span>) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># Perfect!</span> 
     <br/><br/>
-    >> <span class="one">x</span> = raw_input("Enter the string value of x : ") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;">#If x is meant to be a string</span> 
+    >> <span class="one">x</span> <span class='operator'>=</span> <span class='function'>raw_input</span>(<span class='quotes'>"</span><span class='string'>Enter the string value of x : </span><span class='quotes'>"</span>) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># If x is meant to be a string</span> 
     </div>
     <div id="card">
     <br/>
@@ -54,13 +56,10 @@
     <ul>
     	<li><b>input</b> - This is used when the variable for whom the input is being taken; is meant to be a numeric value (Integer or Float). Ex: <b>5</b> or <b>5.0</b></li>
     	<br/>
-    	<br/>
     	<li><b>raw_input</b> - This is used when the variable for whom the input is being taken; is meant to be text. Ex : "I am someone" is a string and not a number. Similarly <b>"5"</b> and <b>5</b> are different, the first is a string (text), whereas the latter is a number (Interger).</li>
-    	<br/>
     	<br/>
     	<li><b>The Message</b> - This will pop up on the screen when the user is about to enter the value of the variable.</li>
     </ul>
-    <br/>
     <h2 style="color: #999999;">Output</h2>
 
     Printing a variable to the screen is even more easy! Use the print function! (Don't worry if you don't know what a function is).
@@ -69,31 +68,31 @@
     Here, let's try it : 
     </div>
     <div id="code">
-    >> <span class="one">x</span> = 5
+    >> <span class="one">x</span> <span class='operator'>=</span> <span class='number'>5</span>
     <br/>
     <br/>
-    >> <span class="print">print </span> x &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 5 to the console!</span><br/><br/>
+    >> <span class="print">print </span> x &nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># Prints 5 to the console!</span><br/><br/>
     5<br/><br/>
-    >> <span class="one">y </span>= 5.1<br/><br/>
-    >> <span class="print">print </span> y &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 5.1 to the console!</span><br/><br/>
+    >> <span class="one">y </span><span class='operator'>=</span> <span class='number'>5.1</span><br/><br/>
+    >> <span class="print">print </span> y &nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># Prints 5.1 to the console!</span><br/><br/>
     5.1<br/><br/>
-    >> <span class="one">z </span>= "Hey There!"<br/><br/>
-    >> <span class="print">print </span>z &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 'Hey There!' to the console!</span><br/><br/>
+    >> <span class="one">z </span><span class='operator'>=</span> <span class='quotes'>"</span><span class='string'>Hey There!</span><span class='quotes'>"</span><br/><br/>
+    >> <span class="print">print </span>z &nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># Prints 'Hey There!' to the console!</span><br/><br/>
     Hey There!
     </div>
     <div id="card"><br/>
       You could also type in things directly to print them to the console.<br/>
     </div>
     <div id="code">
-      >> <span class="print">print </span> 5+6  &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># Prints 11</span><br/>
+      >> <span class="print">print </span> <span class='number'>5</span> <span class='operator'>+</span> <span class='number'>6</span>  &nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># Prints 11</span><br/>
       11
       </div>
     <div id="card">
       You can also connect strings 1 by 1 or print multiple things at once by using bracks and commas : <br/>
     </div>
     <div id="code">
-      >> <span class="print">print </span> ("The answer to everything is ", 42)<br/>
-      The answer to everything is 42 &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #15aabf;"># This is the output</span>
+      >> <span class="function">print</span>(<span class='quotes'>"</span><span class='string'>The answer to everything is </span><span class='quotes'>"</span>, 42)<br/>
+      The answer to everything is 42 &nbsp&nbsp&nbsp&nbsp&nbsp<span class='comment'># This is the output</span>
     </div>
     <div id="card">
     	<br/>

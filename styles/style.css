@@ -8,16 +8,20 @@
     src: url("../files/light.otf") format("opentype");
 }
 
+*{
+	box-sizing: border-box;
+}
+
 body{
 	width: 100%;
+	max-width: 100vw;
 	margin:0px;
-	font-size: 19px;
+	border: 0;
+	font-size: 1.1em;
 	font-family: Montserrat, sans-serif, Cambria;
 	line-height: 1.6;
 }
-.function{
-	color: #8fd32b;
-}
+
 #line{
 	background: #000000;
 	width: 50%;
@@ -35,28 +39,25 @@ div{
 	box-sizing: border-box;
 }
 #card{
-	width: 90%;
+	width: 90vw;
 	height: auto;
-    padding: 40px;
+    padding: 1.4rem;
     background: #ffffff;
-    font-size: 18px;
+    font-size: 1em;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     color: #000000;
     text-align: left;
     box-sizing: border-box;
 }
 #code{
-	padding: 30px;
+	padding: 1.4rem;
 	color: #ffffff;
 	background: #303030;
-	font-family: Courier, Courier New,sans-serif;
-	font-size: 16px;
-	width: 90%;
+	font-family: consolas,sans-serif;
+	font-size: 1em;
+	width: 90vw;
     text-align: left;
     box-sizing: border-box;
-}
-.comment{
-	color: #15aabf;
 }
 #button{
 	background: transparent;
@@ -71,12 +72,37 @@ div{
 #button:hover{
 	transform: scale(1.1);
 }
+
+/* Code Components */
+
 .one{
-	color: #d9135b;
+	color: #ffffff;
 }
-.print{
-	color: #1fab54;
+.comment{
+	color: gray;
 }
+.equals,.operator{
+	color: #f97b57;
+	font-weight: bold;
+}
+.number{
+	color: #f1ae57;	
+}
+.string{
+	color: #99c189;
+}
+.quotes{
+	color: #60b4b4;
+}
+.print,.keyword{
+	color: #c48c9f;
+}
+.function{
+	color: #5999cc;
+}
+
+/* Other elements of the pages. */
+
 #foot{
 	height: 5vh;
 	background: transparent;
@@ -89,10 +115,10 @@ div{
 }
 footer{
 	background: #495057;
-	padding: 40px;
+	padding: 1.4rem;
 	box-sizing: border-box;
-	width: 90%;
-	font-size: 18px;
+	width: 90vw;
+	font-size: 1em;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     color: #000000;
 }
